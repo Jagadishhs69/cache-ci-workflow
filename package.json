@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && echo 'Build output' > dist/output.txt",
+    "test": "echo 'Running tests...'"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
